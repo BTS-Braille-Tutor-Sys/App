@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="쓰기 모드"
+            android:textColor="#333333"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3" android:layout_marginEnd="16dp">
+                    <ImageView android:id="@+id/dot1" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot4" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot2" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot5" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot3" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot6" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3" android:layout_marginEnd="16dp">
+                    <ImageView android:id="@+id/dot7" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot10" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot8" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot11" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot9" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot12" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3" android:layout_marginEnd="16dp">
+                    <ImageView android:id="@+id/dot13" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot16" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot14" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot17" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot15" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot18" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3" android:layout_marginEnd="16dp">
+                    <ImageView android:id="@+id/dot19" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot22" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot20" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot23" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot21" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot24" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3" android:layout_marginEnd="16dp">
+                    <ImageView android:id="@+id/dot25" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot28" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot26" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot29" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot27" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot30" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+                <GridLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:columnCount="2" android:rowCount="3">
+                    <ImageView android:id="@+id/dot31" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot34" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot32" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot35" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                    <ImageView android:id="@+id/dot33" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/><ImageView android:id="@+id/dot36" android:layout_width="45dp" android:layout_height="45dp" android:layout_margin="4dp" android:src="@drawable/dot_inactive"/>
+                </GridLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp" />
+
+</FrameLayout>

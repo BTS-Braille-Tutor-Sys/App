@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점자 학습 프로그램"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/studyBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="학습 모드 시작"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/testBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="시험 모드 시작"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/writeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="쓰기 모드"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/wrongNoteBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="오답 노트 &amp; 통계"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+</FrameLayout>

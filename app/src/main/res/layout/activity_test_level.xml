@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시험 단계 선택"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="40dp" />
+
+        <Button
+            android:id="@+id/testIntroBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:text="입문 시험 (열림)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testBasicBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="16dp"
+            android:text="기초 시험 (잠김)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testStandardBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginBottom="32dp"
+            android:text="기본 시험 (잠김)"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/testAiBtn"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="AI 심화 시험 (제미나이)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#9C27B0"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/layout_exit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+</FrameLayout>
